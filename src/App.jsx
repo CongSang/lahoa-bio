@@ -11,7 +11,7 @@ const App = () => {
         <img 
           src={data.hero}
           alt="shadow-decor"
-          className="absolute top-0 right-0 h-full sm:h-auto object-cover opacity-[0.03] mix-blend-multiply"
+          className="absolute top-0 right-0 h-full sm:h-auto object-cover opacity-[0.1] mix-blend-multiply animate-[breathe_8s_ease-in-out_infinite]"
         />
 
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
