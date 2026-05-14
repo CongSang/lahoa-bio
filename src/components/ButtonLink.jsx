@@ -13,7 +13,7 @@ const ButtonLink = ({ data }) => {
             {data.icon && <div>
               {typeof data.icon === 'string' ? returnSVGComponent(data.icon) : <data.icon />}
             </div>}
-            <span class="font-medium text-slate-700 tracking-wide">{data.name}</span>
+            <span class="font-medium text-slate-600 tracking-wide">{data.name}</span>
         </div>
 
         <ChevronRight width={16} className="text-gray-500 ml-6" />
